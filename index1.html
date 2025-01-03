@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" href="./style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="stopwatch">
+        <h1 id="displayTime">00:00:00</h1>
+        <div class="button">
+            <img src="./stop.png" alt="Stop" onclick="watchStop()">
+            <img src="./start.png" alt="Start" onclick="watchStart()">
+            <img src="./reset.png" alt="Reset" onclick="watchReset()">
+        </div>
+    </div>
+    <script src="./js2.js"></script>
+</body>
+</html>
